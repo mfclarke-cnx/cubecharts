@@ -95,6 +95,9 @@ remoteDir:
     ##
     storageClass:
 
+    ## If defined, specifies the static volume to use.
+    volumeName:
+
 cloudStorage:
   gcp:
     ## A Base64 encoded JSON key file for connecting to Google Cloud. Required when using Google Cloud Storage

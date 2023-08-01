@@ -32,4 +32,7 @@ spec:
   {{- if .Values.remoteDir.persistence.storageClass }}
   storageClassName: {{ .Values.remoteDir.persistence.storageClass }}
   {{- end }}
+  {{- if .Values.remoteDir.persistence.volumeName }}
+  volumeName: {{ .Values.remoteDir.persistence.volumeName }}
+  {{- end }}
 {{- end }}
